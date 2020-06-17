@@ -1,0 +1,14 @@
+{
+  "name": "automaton-v21",
+  "version": "1.0.0",
+  "description": "Automation framework (UI) - an example. Based on Node.JS, Cypress.",
+  "scripts": {
+    "test": "npm start & cypress run",
+  },
+  "author": "Baur Urazalinov",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^7.2.0",
+    "cypress": "^4.5.0",
+  }
+}
