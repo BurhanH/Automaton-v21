@@ -18,4 +18,4 @@ install:
   - npm install cypress
 
 script:
-  - npm run cy:run --browser chrome --headless --spec "cypress/integration/test.js"
+  - npm run cy:run --browser firefox --headless --spec "cypress/integration/test.js"
