@@ -20,3 +20,15 @@ describe('Google test', () => {
   });
 
 });
+
+describe('API tests', () => {
+  it('Get 200 OK success status from API service', () => {
+    cy.request(
+      'GET',
+      'https://api-flask-baur.herokuapp.com/api/v1/quotes',
+      )
+      .then((response) => {
+        expect(response.status).to.eq(200)
+      });
+    });  
+});
