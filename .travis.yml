@@ -14,5 +14,8 @@ addons:
   firefox: latest
   chrome: stable
 
+install:
+  - npm install cypress
+
 script:
   - npm run cy:run --browser chrome --headless --spec "cypress/integration/test.js"
