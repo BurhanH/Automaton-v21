@@ -8,6 +8,14 @@ node_js:
 cache:
   directories:
   - node_modules
+  - ~/.cache
+
+addons:
+  firefox: latest
+  chrome: stable
+
+install:
+  - npm install cypress
 
 script:
-  - npm test
+  - npm run cy:run --browser firefox --headless --spec "cypress/integration/test.js"
