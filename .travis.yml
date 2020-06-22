@@ -11,6 +11,7 @@ cache:
 
 addons:
   firefox: latest
+  chrome: stable
 
 script:
   - npm run cy:run --browser chrome --headless --spec "cypress/integration/test.js"
