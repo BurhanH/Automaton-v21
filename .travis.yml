@@ -9,5 +9,8 @@ cache:
   directories:
   - node_modules
 
+addons:
+  firefox: latest
+
 script:
   - npm run cy:run --browser chrome --headless --spec "cypress/integration/test.js"
