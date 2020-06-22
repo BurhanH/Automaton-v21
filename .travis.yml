@@ -10,4 +10,4 @@ cache:
   - node_modules
 
 script:
-  - npm initial
+  - npm validate
