@@ -20,7 +20,7 @@ If you are familiar with JavaScript, Mocha test framework, and web stack definit
 ```
 The repository structure is simple. It has as usual [.travis.yml](https://github.com/BurhanH/Automaton-v21/blob/master/.travis.yml) configuration file for Travis CI, [License](https://github.com/BurhanH/Automaton-v21/blob/master/LICENSE), Readme.md, cypress.json, [package.json](https://github.com/BurhanH/Automaton-v21/blob/master/package.json), and [test.js](https://github.com/BurhanH/Automaton-v21/blob/master/cypress/integration/test.js).
 
-The last file (test.js) describes 2 test suites. The first test suite for UI testing contains 2 simple tests like 'go to google.com' and the second one is 'try to perform search action and get some results'. The second test suite for REST API testing contains only one test - 'go to a specific API endpoint and get a positive response from server'.
+The last file (test.js) describes 2 test suites. The first test suite for UI testing contains 2 simple tests like `go to google.com` and the second one is `try to perform search action and get some results`. The second test suite for REST API testing contains only one test - `go to a specific API endpoint and get a positive response from server`.
 
 ## Pros and Cons
 Uder development
