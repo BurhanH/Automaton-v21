@@ -6,7 +6,7 @@
     "cy:run": "cypress run"
   },
   "scriptsComments": {
-    "test": "should be replaced to - npm start & cypress run"
+    "comment": "here is a place for comments"
   },
   "author": "Baur Urazalinov",
   "license": "MIT",
