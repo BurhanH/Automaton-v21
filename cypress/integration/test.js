@@ -30,5 +30,17 @@ describe('API tests', () => {
       .then((response) => {
         expect(response.status).to.eq(200)
       });
-    });  
+    });
+  it('Get first quote from API service', () => {
+      cy.request(
+        'GET',
+        'https://api-flask-baur.herokuapp.com/api/v1/quotes/1',
+        )
+        .then((response) => {
+          expect(response.status).to.eq(200)
+          expect(response.body).to.have.property('quote_id', 1)
+          expect(response.body).to.have.property('author', 'Dr. Seuss')
+          expect(response.body).to.have.property('quote', 'Don\'t cry because it\'s over, smile because it happened.')
+        });
+      });  
 });
