@@ -20,7 +20,7 @@ install:
 before_script:
   - google-chrome --version
   - firefox --version
-  - npm run cypress info
+  - cypress info
 
 script:
   - npm run cy:run --browser firefox --headless --spec "cypress/integration/test.js"
