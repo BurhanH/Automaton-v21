@@ -33,7 +33,6 @@ Uder development
 - Add more tests.
 - Fix a browser issue. For some reason, Cypress does not recognize Firefox and Chrome browsers on Travis CI. (try to use Docker container with Cypress).
 - Find a solution to extract log files and video files as a zip package from Travis CI.
-- Add a gif file with a visual sample of how it works.
 
 ## Techology stack and documentation
 [Cypress](https://www.cypress.io/) <br>
