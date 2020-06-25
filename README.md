@@ -23,6 +23,9 @@ The repository structure is simple. It has as usual [.travis.yml](https://github
 The last file (test.js) describes 2 test suites. The first test suite for UI testing contains 2 simple tests like `go to google.com` and the second one is `try to perform search action and get some results`. The second test suite for REST API testing contains only one test - `go to a specific API endpoint and get a positive response from server`.
 You may check test results [here](https://travis-ci.org/github/BurhanH/Automaton-v21/builds/701495313).
 
+## How it works
+![alt text](https://github.com/BurhanH/Automaton-v21/blob/master/how-it-works.gif "How it works")
+
 ## Pros and Cons
 Uder development
 
