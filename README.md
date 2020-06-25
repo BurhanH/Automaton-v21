@@ -24,7 +24,7 @@ The last file (test.js) describes 2 test suites. The first test suite for UI tes
 You may check test results [here](https://travis-ci.org/github/BurhanH/Automaton-v21/builds/701495313).
 
 ## How it works
-![alt text](https://github.com/BurhanH/Automaton-v21/blob/master/how-it-works.gif, "How it works")
+![alt text](https://github.com/BurhanH/Automaton-v21/blob/master/how-it-works.gif "How it works")
 
 ## Pros and Cons
 Uder development
