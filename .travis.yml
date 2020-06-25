@@ -23,4 +23,4 @@ before_script:
   - cypress info
 
 script:
-  - npm run cy:run --browser firefox --headless --spec "cypress/integration/test.js"
+  - cy:run --browser firefox --headless --spec "cypress/integration/test.js"
