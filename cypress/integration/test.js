@@ -1,7 +1,7 @@
 describe('Google test', () => {
 
   beforeEach(() => {
-    cy.viewport('iphone-6');
+    cy.viewport(1024, 768);
   });
 
   it('Visits Google Search', () => {
