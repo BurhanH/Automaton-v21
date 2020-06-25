@@ -17,5 +17,9 @@ addons:
 install:
   - npm install cypress
 
+before_script:
+  - google-chrome --version
+  - firefox --version
+
 script:
   - npm run cy:run --browser firefox --headless --spec "cypress/integration/test.js"
