@@ -33,7 +33,7 @@ Uder development
 - Add more tests.
 - Find a solution to extract log files and video files as a zip package from Travis CI.
 
-## Techology stack and documentation
+## Technology stack and documentation
 [Cypress](https://www.cypress.io/) <br>
 [GitHub](https://help.github.com/en) <br>
 [Travis](https://docs.travis-ci.com/) <br>
