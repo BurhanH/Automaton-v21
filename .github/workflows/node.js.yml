@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install
-    - run: cypress run --spec "cypress/integration/test.js"
+    - run: npm cypress run --spec "cypress/integration/test.js"
