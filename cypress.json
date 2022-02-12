@@ -1,1 +1,10 @@
-{}
+{
+    "numTestsKeptInMemory": 10,
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 5000,
+    "video": false,
+    "retries": {
+        "runMode": 1,
+        "openMode": 0
+      }
+}
