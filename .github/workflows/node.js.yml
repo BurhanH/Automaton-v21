@@ -26,6 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
     - run: npm install
-    - run: npm cypress run --spec "cypress/integration/test.js"
+    - run: npx cypress run --spec "cypress/integration/test.js"
